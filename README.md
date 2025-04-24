@@ -33,6 +33,10 @@ Click "Add Note" to save it. The note will appear in the list below.
 #### Deleting Notes:
 Each note has a delete button. Click the button to remove the note from the list.
 
-### License
+#### Character Count:
+The app displays the number of characters entered in the input field, limited to 200 characters.
+
+
+## License
 
 *This software is licensed under the MIT license.*
