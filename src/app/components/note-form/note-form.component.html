@@ -1,1 +1,15 @@
-<p>note-form works!</p>
+<div class="note-form">
+    <mat-form-field class="full-width" appearance="fill">
+      <mat-label>Enter a note</mat-label>
+      <textarea
+        matInput
+        [(ngModel)]="noteText"
+        rows="3"
+        maxlength="200"
+        placeholder="Write your note here..."
+      ></textarea>
+      <mat-hint align="end">{{ noteText.length }}/200</mat-hint>
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="onAddNote()">Add Note</button>
+  </div>
+  

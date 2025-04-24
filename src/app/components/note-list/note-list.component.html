@@ -1,1 +1,8 @@
-<p>note-list works!</p>
+<div class="note-list">
+  <mat-card *ngFor="let note of notes" class="note-card">
+    <p>{{ note.text }}</p>
+    <button mat-raised-button color="warn" (click)="deleteNote(note.id)">
+      Delete
+    </button>
+  </mat-card>
+</div>
