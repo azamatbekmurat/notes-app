@@ -25,6 +25,14 @@ A simple and responsive Notes application built using Angular (v19.2.8), TypeScr
    ng serve
    Open the app in your browser at http://localhost:4200
 
+### How It Works
+#### Adding Notes:
+Type your note in the input field.
+Click "Add Note" to save it. The note will appear in the list below.
+
+#### Deleting Notes:
+Each note has a delete button. Click the button to remove the note from the list.
+
 ### License
 
 *This software is licensed under the MIT license.*
